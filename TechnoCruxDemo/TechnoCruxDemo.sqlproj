@@ -215,4 +215,7 @@
   <ItemGroup>
     <None Include="Migrations\1.0.0\002_20190615-0549_acer1234.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Migrations\1.0.0\003_20190615-0713_acer1234.sql" />
+  </ItemGroup>
 </Project>
