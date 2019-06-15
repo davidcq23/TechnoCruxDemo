@@ -9,3 +9,15 @@ Post-Deployment Script Template
                SELECT * FROM [$(TableName)]
 --------------------------------------------------------------------------------------
 */
+
+INSERT INTO dbo.Cliente
+        ( IDCliente ,
+          Nombre ,
+          Apellido ,
+          Telefono
+        )
+VALUES  ( 1, -- IDCliente - int
+          N'David' , -- Nombre - nchar(10)
+          N'Camacho' , -- Apellido - nchar(10)
+          N'8888-8888'  -- Telefono - nchar(10)
+        )
