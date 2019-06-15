@@ -36,6 +36,7 @@
     <ExcludeObjectsFromSync />
     <IncludeObjectsInDataSync />
     <DeployChangesInitialImportDone>False</DeployChangesInitialImportDone>
+    <GenerateSqlPackage>False</GenerateSqlPackage>
   </PropertyGroup>
   <!-- READYROLL OFFLINE SCHEMA MODEL OPTIONS -->
   <PropertyGroup>
@@ -210,5 +211,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Migrations\1.0.0\001_20190615-0527_acer1234.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Migrations\1.0.0\002_20190615-0549_acer1234.sql" />
   </ItemGroup>
 </Project>
